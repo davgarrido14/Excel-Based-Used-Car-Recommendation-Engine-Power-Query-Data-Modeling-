@@ -117,17 +117,16 @@ else "Avoid"
 ## Power Query Implementation Details
 Data sources
 Raw listings table
+Brand reliability table
 
-Brand reliability table (connection only)
-
-Steps performed
+### Steps performed
 Standardized column names and data types
 
 Normalized accident and ownership fields
 
 Merged reliability table
 
-Added calculated fields:
+### Added calculated fields:
 
 Decade
 
@@ -196,7 +195,7 @@ Shows the pricing impact of personal‑use history.
 ## Advanced Pricing and Revenue Modeling
 This project includes a comprehensive pricing and revenue analysis framework that extends beyond basic averages. It incorporates adjusted ASP calculations, revenue forecasting, depreciation modeling, and fuel‑type‑specific pricing intelligence to support strategic decision‑making.
 
-Base Average Selling Price by Fuel Type
+## Base Average Selling Price by Fuel Type
 A baseline ASP table was created for the major fuel types:
 
 Gasoline
@@ -244,7 +243,7 @@ Projected Revenue
 
 This provides a clear view of which fuel types contribute the most revenue and how pricing adjustments impact total value.
 
-Depreciation Modeling by Mileage Bucket
+## Depreciation Modeling by Mileage Bucket
 A depreciation table was built to analyze how vehicle value changes across mileage ranges.
 For each mileage bucket, the model includes:
 
@@ -255,3 +254,5 @@ Observed Depreciation
 Forecasted Depreciation
 
 This helps identify where depreciation accelerates, stabilizes, or becomes nonlinear, supporting long‑term value analysis.
+
+
