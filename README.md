@@ -112,7 +112,7 @@ else if [Reliability] = "Average Reliability"
 then "Acceptable"
 
 else "Avoid"
-```m
+```
 
 ## Power Query Implementation Details
 Data sources
