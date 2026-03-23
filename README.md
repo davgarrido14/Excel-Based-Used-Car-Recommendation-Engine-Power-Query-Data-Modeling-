@@ -260,6 +260,7 @@ Because the main Excel workbook is large, it has been compressed and split into 
 Follow the steps below to correctly extract the full file.
 
 # Repository Contents
+Screenshots
 
 data/ — Kaggle https://www.kaggle.com/datasets/andreinovikov/used-cars-dataset
 
