@@ -255,4 +255,49 @@ Forecasted Depreciation
 
 This helps identify where depreciation accelerates, stabilizes, or becomes nonlinear, supporting long‑term value analysis.
 
+Because the main Excel workbook is large, it has been compressed and split into multiple parts using WinRAR. This allows the full project to be stored in the repository while staying within GitHub’s file size limits.
 
+Follow the steps below to correctly extract the full file.
+
+# Repository Contents
+
+data/ — Kaggle https://www.kaggle.com/datasets/andreinovikov/used-cars-dataset
+
+README.md — project documentation
+
+project_data.part1.rar
+
+project_data.part2.rar
+
+project_data.part3.rar
+
+project_data.part4.rar
+
+project_data.part5.rar
+
+project_data.part6.rar
+
+## Download Instructions
+Download all six archive parts from the /data folder:
+
+Make sure all parts are in the same folder on your computer.
+
+Extraction Instructions
+Install WinRAR (or any compatible tool such as 7‑Zip).
+
+Right‑click only the first file:
+
+project_data.part1.rar
+
+Select Extract Here or Extract to project_data/.
+
+WinRAR will automatically detect and combine all remaining parts.
+
+When extraction completes, you will see the full Excel workbook restored exactly as intended.
+
+Important Notes
+You must download every part; missing even one will cause extraction errors.
+
+Do not try to open the .rar files individually — only extract from part 1.
+
+The extracted Excel file will be large, as it contains the full Power Query model, pivot tables, forecasts, and analysis layers.
